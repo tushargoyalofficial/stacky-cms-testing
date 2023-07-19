@@ -15,4 +15,5 @@ services:
       ADMIN_PASSWORD: 'test123'
       DB_CLIENT: 'sqlite3'
       DB_FILENAME: '/directus/database/data.db'
-      FLOWS_EXEC_ALLOWED_MODULES: array:moment,uuid
+      FLOWS_EXEC_ALLOWED_MODULES: 'array:moment,uuid'
+      PUBLIC_URL: 'https://stacky-cms-testing.onrender.com'
